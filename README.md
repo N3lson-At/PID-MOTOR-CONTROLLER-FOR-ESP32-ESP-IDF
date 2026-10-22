@@ -25,13 +25,14 @@ A diferencia de los enfoques académicos tradicionales, este componente integra 
 .
 ├── CMakeLists.txt
 ├── README.md
-├── include
-│   └── Motor_Controller.h
-├── Motor_Controller.c
-└── examples
-    └── main_test
-        ├── CMakeLists.txt
-        └── main.c
+├── components 
+    ├── include
+       └── Motor_Controller.h
+    ├── Motor_Controller.c
+    ├── CMakeLists.txt
+└── main
+    ├── CMakeLists.txt
+    └── main.c
 ```
 ## ⚙️ Parámetros Configurables
 
