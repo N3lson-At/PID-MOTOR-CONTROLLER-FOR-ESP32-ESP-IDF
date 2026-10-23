@@ -25,11 +25,12 @@ A diferencia de los enfoques académicos tradicionales, este componente integra 
 .
 ├── CMakeLists.txt
 ├── README.md
-├── components 
-    ├── include
-       └── Motor_Controller.h
-    ├── Motor_Controller.c
-    ├── CMakeLists.txt
+├── components
+    ├── Motor_Controller
+       ├── include
+          └── Motor_Controller.h
+       ├── Motor_Controller.c
+       ├── CMakeLists.txt
 └── main
     ├── CMakeLists.txt
     └── main.c
